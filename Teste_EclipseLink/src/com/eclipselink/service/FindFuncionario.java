@@ -13,9 +13,9 @@ import com.eclipselink.entity.Funcionario;
 
 public class FindFuncionario {
 
-	public static void main(String[] args) {
+	public void find() {
 				
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "jpadb_01" );
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "JPA_01" );
 		EntityManager entitymanager = emfactory.createEntityManager();
 		
 		int id = Integer.parseInt(JOptionPane.showInputDialog("Id"));

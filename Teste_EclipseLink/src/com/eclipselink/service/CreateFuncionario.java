@@ -13,7 +13,7 @@ public class CreateFuncionario {
 	//Cria Objeto para funcionario
 	static Funcionario funcionario = new Funcionario();
 
-	public static void main(String[] args) {
+	public void insert() {
 
 		// Criando uma conexão com a nossa base de dados
 		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_01");

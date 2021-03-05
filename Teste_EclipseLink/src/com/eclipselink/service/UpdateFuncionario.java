@@ -11,8 +11,8 @@ import javax.swing.JOptionPane;
 import com.eclipselink.entity.Funcionario;
 
 public class UpdateFuncionario {
-	public static void main (String[] main) {
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "jpadb_01" );
+	public void update() {
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "JPA_01" );
   
 		EntityManager entitymanager = emfactory.createEntityManager( );
 		entitymanager.getTransaction( ).begin( );
