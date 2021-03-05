@@ -1,4 +1,7 @@
 package com.eclipselink.service;
+/*
+ * @Author Diego Lins 05/03/2021
+ */
 
 import javax.swing.JOptionPane;
 
@@ -10,12 +13,14 @@ public class Controller {
 		DeleteFuncionario crudDelete = new DeleteFuncionario();
 		FindFuncionario crudFind = new FindFuncionario();
 		UpdateFuncionario crudUpdate = new UpdateFuncionario();
+		ConsultasJPQLFuncionario crudConsu = new ConsultasJPQLFuncionario();
 		
 		String menu = "0 - Sair\n"
 					+ "1 - Incluir\n"
 					+ "2 - Pesquisar\n"
 					+ "3 - Alterar\n"
-					+ "4 - Excluir\n";
+					+ "4 - Excluir\n"
+					+ "5 - Ver Banco/Informações adicionais\n";
 		int opcao = 0;
 		
 		do {
@@ -33,6 +38,9 @@ public class Controller {
 			case 4:
 				crudDelete.delete();
 				break;
+			case 5:
+				crudConsu.consultar();
+				break;	
 			}
 		} while (opcao !=0);
 	}
