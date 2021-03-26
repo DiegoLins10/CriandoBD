@@ -11,7 +11,7 @@ public class FindFuncionario {
 
 	public static void main(String[] args) {
 				
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "JPA_01" );
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "JPA_02" );
 		EntityManager entitymanager = emfactory.createEntityManager();
 		
 		int id = Integer.parseInt(JOptionPane.showInputDialog("Id"));

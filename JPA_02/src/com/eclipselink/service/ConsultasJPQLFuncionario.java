@@ -12,7 +12,7 @@ public class ConsultasJPQLFuncionario {
 
 	public static void main(String[] args) {
 		// Conexão com a base
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_01");
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_02");
 		// Objeto para manipular classes/tabelas
 		EntityManager entitymanager = emfactory.createEntityManager();
 
