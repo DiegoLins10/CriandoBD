@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="C:/Users/DiegoLins/OneDrive - Fatec Centro Paula Souza/Desktop/Faculdade/Engenharia de software 3/JDBC/mysql-connector-java-8.0.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DiegoLins/OneDrive - Fatec Centro Paula Souza/Desktop/Faculdade/Engenharia de software 3/JDBC/sqlite-jdbc-3.30.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DiegoLins/OneDrive - Fatec Centro Paula Souza/Desktop/Faculdade/Engenharia de software 3/JDBC/mssql-jdbc-8.2.2.jre13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DiegoLins/OneDrive - Fatec Centro Paula Souza/Desktop/Faculdade/Engenharia de software 3/JDBC/sqljdbc42.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -28,7 +28,7 @@
 		</properties>-->
 		
 		<properties>
-         <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;DatabaseName=jpadb_01;"/>
+         <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;DatabaseName=jpa;"/>
          <property name="javax.persistence.jdbc.user" value="sa"/> 
          <property name="javax.persistence.jdbc.password" value="dede140126"/> 
          <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
