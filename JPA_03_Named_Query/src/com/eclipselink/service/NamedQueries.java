@@ -13,7 +13,7 @@ import com.eclipselink.entity.Funcionario;
 public class NamedQueries {
 
 	public static void main(String[] args) {
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_01");
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_03");
 		EntityManager entitymanager = emfactory.createEntityManager();
 		Query query = entitymanager.createNamedQuery("find Funcionario id");
 

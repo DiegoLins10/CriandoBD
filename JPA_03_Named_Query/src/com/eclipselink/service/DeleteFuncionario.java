@@ -11,7 +11,7 @@ public class DeleteFuncionario {
 
 	public static void main(String[] args) {
 
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_01");
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("JPA_03");
 		EntityManager entitymanager = emfactory.createEntityManager();
 		entitymanager.getTransaction().begin();
 
