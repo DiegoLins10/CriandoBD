@@ -7,14 +7,22 @@
 	  <class>com.eclipselink.entity.Cliente</class>
       <class>com.eclipselink.entity.PessoaFisica</class>
       <class>com.eclipselink.entity.PessoaJuridica</class>   
-      <properties>
+     <!--   <properties>
          <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpadb?useTimezone=true&amp;serverTimezone=UTC"/>
          <property name="javax.persistence.jdbc.user" value="ale"/> 
          <property name="javax.persistence.jdbc.password" value="ale"/> 
          <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
          <property name="eclipselink.logging.level" value="FINE"/>
          <property name="eclipselink.ddl-generation" value="create-tables"/>
-      </properties>
+      </properties>-->
+      <properties>
+         <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;DatabaseName=jpa;"/>
+         <property name="javax.persistence.jdbc.user" value="sa"/> 
+         <property name="javax.persistence.jdbc.password" value="dede140126"/> 
+         <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+         <property name="eclipselink.logging.level" value="FINE"/>
+         <property name="eclipselink.ddl-generation" value="create-tables"/>
+      </properties> 
 	</persistence-unit>
 </persistence>
 
